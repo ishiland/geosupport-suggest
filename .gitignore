@@ -1,0 +1,14 @@
+.DS_Store
+*.pyc
+*.egg-info
+/.eggs/
+/.idea/
+/__pycache__/
+/dist/
+/build/
+/venv/
+/.vscode/
+MANIFEST
+cover
+.coverage
+coverage.xml

@@ -1,0 +1,2 @@
+python-geosupport>=1.0.5
+nyc-parser>=0.0.2
