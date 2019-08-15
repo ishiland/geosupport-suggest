@@ -15,7 +15,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='geosupport-suggest',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/ishiland/geosupport-suggest',
     description='Retrieve address suggestions from Geosupport',
     long_description=long_description,
