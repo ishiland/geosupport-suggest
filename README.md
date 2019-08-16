@@ -1,6 +1,8 @@
 # geosupport-suggest
 Retrieve address suggestions from Geosupport using [python-geosupport](https://github.com/ishiland/python-geosupport) and a single input address.
 
+ [![Python 2.7 | 3.4+](https://img.shields.io/badge/python-2.7%20%7C%203.4+-blue.svg)](https://www.python.org/downloads/release/python-360/) [![Build Status](https://travis-ci.org/ishiland/geosupport-suggest.svg?branch=master)](https://travis-ci.org/ishiland/geosupport-suggest)  [![PyPI version](https://img.shields.io/pypi/v/geosupport-suggest.svg)](https://pypi.python.org/pypi/geosupport-suggest/)
+
 ## Install
 ```sh
 $ pip install geosupport-suggest
