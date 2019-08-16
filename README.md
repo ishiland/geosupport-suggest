@@ -14,15 +14,14 @@ $ pip install .
 ## Usage
 
 ```python
-from geosupport import Geosupport
-from suggest import GeosupportSuggest
+>> from geosupport import Geosupport
+>> from suggest import GeosupportSuggest
 
 # create a Geosupport object
-g = Geosupport()
+>> g = Geosupport()
 
 # create a GeosupportSuggest object using Geosupport
-s = GeosupportSuggest(g)
-
+>> s = GeosupportSuggest(g)
 ```
 
 ### Get Suggestions
@@ -47,6 +46,17 @@ Requires at least a house number and the first character of a street name. Each 
     'House Number - Sort Format': '000100000AA', 
     'B10SC - First Borough and Street Code': '34453001010', 
     'First Street Name Normalized': 'GOLD STREET',
+    ...}
+]
+
+# try with borough code
+>> s.suggestions('100 Gold', borough_code=1)
+[
+    {'First Borough Name': 'MANHATTAN', 
+    'House Number - Display Format': '100', 
+    'House Number - Sort Format': '000100000AA', 
+    'B10SC - First Borough and Street Code': '12135001010', 
+    'First Street Name Normalized': 'GOLD STREET', 
     ...}
 ]
 ```
