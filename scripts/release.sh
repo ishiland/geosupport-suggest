@@ -38,6 +38,8 @@ fi
 
 # Run tests
 echo "Running tests..."
+# Ensure package is installed with test dependencies
+pip install -e ".[test]"
 python -m pytest
 if [ $? -ne 0 ]; then
   echo "Tests failed. Fix them before releasing."
